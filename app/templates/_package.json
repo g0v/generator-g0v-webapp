@@ -1,0 +1,31 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "gulp --require LiveScript",
+    "dev": "gulp --require LiveScript dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0v/<%= _.slugify(appName) %>.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhsiang/env.g0v.tw/issues"
+  },
+  "homepage": "https://github.com/g0v/<%= _.slugify(appName) %>",
+  "devDependencies": {
+    "Livescript": "~1.2.0",
+    "gulp-livescript": "~0.1.1",
+    "tiny-lr": "0.0.5",
+    "gulp-util": "~2.2.14",
+    "gulp-stylus": "~0.0.12",
+    "gulp-jade": "~0.4.1",
+    "express": "~3.4.8",
+    "gulp": "~3.5.2",
+    "connect-livereload": "~0.3.2",
+    "gulp-livereload": "~1.1.1"
+  }
+}
